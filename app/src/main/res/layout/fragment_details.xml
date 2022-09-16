@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical"
+    android:visibility="visible"
     tools:context="com.zybooks.thebanddatabase.DetailsFragment">
 
-    <TextView
-        android:id="@+id/bandName"
+    <TextView android:id="@+id/bandName"
         style="@style/bandName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="band name" />
+        android:text="@string/band_name"
+        android:visibility="visible">
+
+    </TextView>
 
     <TextView
         android:id="@+id/bandDescription"
         style="@style/bandDescription"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="description" />
+        android:layout_height="match_parent"
+        android:text="@string/description"
+        android:visibility="visible">
 
-</FrameLayout>
+    </TextView>
+
+
+</LinearLayout>

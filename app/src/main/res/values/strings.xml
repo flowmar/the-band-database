@@ -1,18 +1,46 @@
 <resources>
     <string name="app_name">The Band Database</string>
+    <string name="description">description</string>
+    <string name="band_name">band name</string>
+    <string name="band">band</string>
 
-<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
 
     <string-array name="bands">
         <item>The Beatles</item>
         <item>Nirvana</item>
         <item>U2</item>
+        <item>The Offspring</item>
+        <item>Nine Inch Nails</item>
+        <item>Within Temptation</item>
+        <item>Flyleaf</item>
+        <item>Sum 41</item>
+        <item>The Birthday Massacre</item>
+        <item>Orgy</item>
+        <item>Mindless Self Indulgence</item>
+        <item>Lacuna Coil</item>
+        <item>Greenday</item>
+        <item>NOFX</item>
+        <item>Rancid</item>
     </string-array>
 
     <string-array name="descriptions">
         <item>An English rock band that formed in Liverpool in 1960.</item>
         <item>An American rock band that formed in Washington in 1987.</item>
         <item>An Irish rock band from Dublin that formed in 1976.</item>
+        <item>An American rock band from Garden Grove, California that formed in 1984.</item>
+        <item>An American industrial rock band that formed in Cleveland, Ohio in 1988.</item>
+        <item>A Dutch symphonic metal band founded in 1996 by vocalist Sharon den Adel.</item>
+        <item>An American rock band formed in Belton, Texas in 2002.</item>
+        <item>A Canadian rock band from Ajax, Ontario formed in 1996.</item>
+        <item>A Canadian rock band formed in 1999 in London, Ontario, Canada.</item>
+        <item>An American rock band formed in 1994 in Los Angeles, California.</item>
+        <item>An American electropunk band formed in New York City in 1997.</item>
+        <item>An Italian gothic metal band from Milan, formed in 1994.</item>
+        <item>An American rock band formed in the East Bay of California in 1987.</item>
+        <item>An American punk rock band formed in Los Angeles, California in 1983.</item>
+        <item>An American punk rock band formed in Berkely, California in 1991.</item>
+
     </string-array>
 
 </resources>

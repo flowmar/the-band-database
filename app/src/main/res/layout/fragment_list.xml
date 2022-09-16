@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="30dp"
+    android:id="@+id/band_recycler_view"
+    android:background="@color/colorPrimary"
     tools:context="com.zybooks.thebanddatabase.ListFragment">
 
 
-</LinearLayout>
+
+</androidx.recyclerview.widget.RecyclerView>
